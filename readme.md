@@ -27,3 +27,7 @@ browsers and with different browser window widths. A common error is to design
 for a very wide monitor - this can mean that when someone views your page on a
 laptop screen the design would not work.  Test your design at different browser
 window sizes to check that it works ok.
+
+If you want to reference images from your CSS rules, you can either include them
+in this project (add them with git) or reference them via URL on the open
+web (preferred).
