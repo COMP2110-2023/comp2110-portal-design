@@ -63,7 +63,6 @@
         <section class="widgets" id="primary-widgets">
             <div class="widget advertisement">
                 <img alt="Advertisement" src="https://comp2110-portal-server.fly.dev/adserver">
-                <p>Advertisement</p>
             </div>
     
             <div class="widget" id="weather-widget">
@@ -90,7 +89,7 @@
         </section>
 
         <div class="blog">
-            <div class="blogpost">
+            <div class="blogpost" id="blogpost-1">
                 <h2>About this Assignment</h2>
                 <h3 class="byline">By Steve Cassidy</h3>
                 <p>In this assignment you need to develop a CSS stylesheet to display
@@ -105,9 +104,11 @@
                     data from different places. This version is a static mockup so that 
                     you can concentrate on design.
                 </p>
+
+                <p>The blog posts below are nonsense text to fill the space in your design.</p>
             </div>
 
-            <div class="blogpost">
+            <div class="blogpost" id="blogpost-2">
                 <h2>Veniam sit adipisicing ea et</h2>
                 <h3 class="byline">By Bob Bobalooba</h3>
                 <p>Ea irure aute minim aliqua consequat. Sint est occaecat est
@@ -137,7 +138,7 @@
                 reprehenderit.</p>
             </div>
 
-            <div class="blogpost">
+            <div class="blogpost" id="blogpost-3">
                 <h2>Pellentesque velit Mauris</h2>
                 <h3 class="byline">By Mary Contrary</h3>
                 <p>Pellentesque velit mauris, vulputate et diam vitae, pellentesque
@@ -155,14 +156,13 @@
 
     <section class="widgets" id="secondary-widgets">
 
-        <div class="widget" id="weather-widget">
-            <h2>Weather</h2>
-            <ul>
-                <li class="location">Sydney</li>
-                <li class="mintemp">20&deg;C</li>
-                <li class="maxtemp">28&deg;C</li>
-                <li class="outlook">Cloudy</li>
-            </ul>
+        <div class="widget" id="task-widget">
+            <h2>Tasks</h2>
+            <dl>
+                <dt>Learn CSS</dt><dd>So I can do the assignment.</dd>
+                <dt>Wash clothes</dt><dd>So the smell goes away.</dd>
+                <dt>Eat food</dt><dd>To prevent collapse.</dd>
+            </dl>
         </div>
 
         <div class="widget" id="assignments-widget">
@@ -178,7 +178,6 @@
 
         <div class="widget advertisement">
             <img alt="Advertisement" src="https://comp2110-portal-server.fly.dev/adserver">
-            <p>Advertisement</p>
         </div>
     </section>
 
